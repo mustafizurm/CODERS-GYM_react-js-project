@@ -1,0 +1,22 @@
+header{
+    position: relative;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+    background-color: #fff9f3;
+    z-index: -999;
+}
+
+header button{
+    border: 1px solid #ff8901;
+    color: #ff8901;
+}
+
+nav span{
+    color: #ff8901;
+}

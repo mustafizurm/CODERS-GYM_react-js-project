@@ -1,0 +1,31 @@
+section{
+    position: relative;
+}
+
+section::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #fff9f3;
+    z-index: -9999;
+}
+
+h2{
+    line-height: 90px;
+}
+span{
+    color: #ff8901;
+}
+
+button:nth-child(1){
+    background-color: #ff8901;
+    color: white;
+}
+
+button:nth-child(2){
+    color: #ff8901;
+    border: 1px solid #ff8901;
+}
