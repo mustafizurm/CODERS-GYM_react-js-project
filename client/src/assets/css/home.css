@@ -1,8 +1,8 @@
-section{
+.hero_Section{
     position: relative;
 }
 
-section::before{
+.hero_Section::before{
     content: "";
     position: absolute;
     top: 0px;

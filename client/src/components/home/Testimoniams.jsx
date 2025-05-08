@@ -31,8 +31,8 @@ const Testimoniams = () => {
     ]
 
     return (
-        <section className='mt-[190px]'>
-            <div className='w-[96%] sm:w-[620px] md:w-[760px] lg:w-[1010px] xl:w-[1260px] m-auto'>
+        <section className='mt-[120px] md:mt-[180px]'>
+            <div className='w-[96%] sm:max-w-[620px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1260px] m-auto'>
                 <h3 className='text-4xl heading'>What Are The Costumer <br /> Saying About Us</h3>
                 <div className='w-[100%] flex overflow-hidden gap-4 mt-[40px]'>
                     {
@@ -51,6 +51,11 @@ const Testimoniams = () => {
                             )
                         })
                     }
+                </div>
+                <div className='flex mt-[40px] justify-center gap-3'>
+                    <div className='w-[10px] h-[10px] bg-orange-300 rounded-full cursor-pointer'></div>
+                    <div className='w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer'></div>
+                    <div className='w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer'></div>
                 </div>
             </div>
         </section>

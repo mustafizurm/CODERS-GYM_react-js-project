@@ -31,8 +31,8 @@ const Offer = () => {
     ]
 
     return (
-        <section className='mt-[100px]'>
-            <div className='w-[96%] sm:w-[620px] md:w-[760px] lg:w-[1010px] xl:w-[1260px] m-auto'>
+        <section className='mt-[120px] md:mt-[180px]'>
+            <div className='w-[96%] sm:max-w-[620px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1260px] m-auto'>
                 <div className='w-[100%] grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'>
                     {
                         offers.map((offer) => {

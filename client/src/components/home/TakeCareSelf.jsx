@@ -4,8 +4,8 @@ import image from "../../assets/images/2-D6fIL54y.png"
 
 const TakeCareSelf = () => {
   return (
-    <section className='mt-[220px]'>
-        <div className='w-[96%] sm:w-[620px] md:w-[760px] lg:w-[1010px] xl:w-[1260px] m-auto'>
+    <section className='mt-[120px] md:mt-[180px]'>
+        <div className='w-[96%] sm:max-w-[620px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1260px] m-auto'>
             <div className='w-[100%] grid grid-cols-1 md:grid-cols-2 gap-[50px] items-center'>
                 <div>
                     <img src={image} alt="" />

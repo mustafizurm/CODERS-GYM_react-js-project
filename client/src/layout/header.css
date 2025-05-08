@@ -1,8 +1,8 @@
-header{
+.header_section{
     position: relative;
 }
 
-header::before{
+.header_section::before{
     content: "";
     position: absolute;
     width: 50%;
